@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Do+Hyeon&display=swap');
+
+body {
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    background-color: #381DFC;
+    height: 25px;
+    width: 100%;
+}
+
+nav {
+    background-color: #44ABF8;
+    height: 75px;
+    width: 100%;
+}
+
+#logo {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    padding-left: 1100px;
+    padding-bottom: 10px;
+}
+
+.add_board {
+    padding-bottom: 30px;
+}
+
+.add_board_msg {
+    margin-left: 35px;
+    font-size: larger;
+}
+.add_board_ip {
+    margin-left: 35px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    border-style: dotted;
+    width: 200px;
+}
+
+.add_board_btn {
+    background-color: #381DFC;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Crimson Text', serif;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+.all_boards {
+    padding-bottom: 30px;
+}
+
+.all_boards_msg {
+    margin-left: 35px;
+    font-size: larger;
+}
+
+.placeholders {
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+#placeholder1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(101,280,231);
+}
+
+.placeholder2{
+    height: 300px;
+    width: 300px;
+    background-color: #E1EA35;
+}
+
+#placeholder3{
+    height: 300px;
+    width: 300px;
+    background-color:  #44ABF8;
+}
+
+footer {
+    background-color: #381DFC;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+}
